@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Parks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <figure class="icon">
+    <img src="national_park_icon.png" alt="National Park Icon" align="left">
+    </figure>
+    <h1 id="page-title">National Parks</h1>
+    <p class="subtitle">Exploring the beauty and diversity of America's national parks</p>
+     
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About this page</h2>
+      <p>
+        U.S. National Parks are federally protected lands managed by
+         the National Park Service (NPS) to conserve natural, cultural, 
+         and historic resources. With 63 designated national parks (like Yellowstone and Yosemite) 
+         and hundreds of other sites, they offer recreational opportunities, protect ecosystems, 
+        and preserve unique geological wonders for future generations.<br>
+        <a href="https://www.nps.gov/index.htm" target="_blank">National Park Service</a>.<br>
+        <a href="https://biswasjayanta.github.io/GeoVisualization_Portfolio.html" target="_blank">GeoVisualization Portfolio</a>.
+      </p>
+      <button id="toggle-button">Show / hide extra details</button>
+      <div id="extra-details" class="hidden">
+        <p>
+          The United States has 63 national parks, which are congressionally designated protected
+           areas operated by the National Park Service, an agency of 
+           the Department of the Interior. National parks are designated for 
+           their natural beauty, unique geological features, diverse ecosystems, 
+           and recreational opportunities, typically "because of some outstanding scenic 
+           feature or natural phenomena." While legislatively all units of the National Park System 
+           are considered equal with the same mission, national parks are generally larger and more of a destination, 
+           and hunting and extractive activities are prohibited. National monuments, on the other hand, 
+          are also frequently protected for their historical or archaeological significance.
+        </p>
+      </div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <h2>National Parks</h2>
+        <ul>
+          <li>Great Smokey Mountain.</li>
+          <li>Death Valley.</li>
+          <li>Zion National Park.</li>
+          <li>Yellowstone.</li>
+          <li>Grand Canyon.</li>
+        </ul>
+      <button id="show-more-parks-button">Show / Hide Extra Parks</button>
+      <div id="show-more-parks" class="hidden">
+        <ul>
+          <li>Acadia National Park.</li>
+          <li>Everglades National Park.</li>
+          <li>Glacier National Park.</li>
+          <li>Rocky Mountain National Park.</li>
+        </ul>
+      </div>
+      </div>
+      <figure class="mini-figure">
+        <img
+          src="fall_great_smoky_mountains.jpg"
+          alt="Smokey Mountain National Park">
+        <figcaption align="center">Smokey Mountain National Park.</figcaption>
+      </figure>
+    </section>
+
+    <section class="card">
+      <h2>National Parks Information</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>State</th>
+            <th>Coordinates</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Great Smokey Mountain</td>
+            <td>NC, TN</td>
+            <td>35.68°N 83.53°W</td>
+          </tr>
+          <tr>
+            <td>Death Valley</td>
+            <td>CA, NV</td>
+            <td>36.42°N 117.08°W</td>
+          </tr>
+          <tr>
+            <td>Grand Canyon</td>
+            <td>AZ</td>
+            <td>36.05°N 112.14°W</td>
+          </tr>
+          <tr>
+            <td>Yellowstone</td>
+            <td>WY, MT, ID</td>
+            <td>44.60°N 110.50°W</td>
+          </tr>
+          <tr>
+            <td>Zion National Park</td>
+            <td>UT</td>
+            <td>37.30°N 113.05°W</td>
+          </tr>
+          <tr>
+            <td>Acadia National Park</td>
+            <td>ME</td>
+            <td>44.35°N 68.21°W</td>
+          </tr>
+          <tr>
+            <td>Everglades National Park</td>
+            <td>FL</td>
+            <td>25.32°N 80.93°W</td>
+          </tr>
+          <tr>
+            <td>Glacier National Park</td>
+            <td>MT</td>
+            <td>48.70°N 113.72°W</td>
+          </tr>
+          <tr>
+            <td>Rocky Mountain National Park</td>
+            <td>CO</td>
+            <td>40.40°N 105.58°W</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+        <section class="card answer">
+      <div>
+        <h2>HTML-CSS-JS Understanding</h2>
+        <p><b>In HTML, what is the difference between an element and an attribute?</b></p>
+        <p align="justify"><i>An element is a component of an HTML document that defines its structure and content,
+          while an attribute provides additional information about an element (e.g, &lt;p&gt; &lt;/p&gt; is the element and align="justify" is the attribute).</i></p>
+
+        <p><b>Why do we usually separate content (HTML), presentation (CSS), and behavior (JavaScript)?</b></p>
+        <p align="justify"><i>Separating content, presentation, and behavior allows for better organization, maintenance, and modification, of web page creation.
+          It enables us to focus on specific parts without affecting others.</i></p>
+
+        <p><b>Which lines in your CSS control the page background, heading appearance, and button styling?</b></p>
+        <p align="justify"><i>Lines 3-6 (body) control the page background, lines 7-11 (hero) & 76-80 control the heading appearance, and lines 37-45 (button) control the button styling.</i></p>
+
+        <p><b>What does the JavaScript event listener do, and what visible change does it trigger on the page?</b></p>
+        <p align="justify"><i>The JavaScript event listener responds to a click event on the button with id "toggle-button". When the button is clicked,
+          it toggles the "hidden" class on the element with id "extra-details", which shows or hides the extra details section.</i></p>
+        
+        <p><b>Why is it useful to preview your webpage in both the editor and the browser while you work?</b></p>
+        <p align="justify"><i>It allows us to see how our code changes affect the visual appearance and functionality of the page in real-time,
+          helping us to catch errors and make adjustments more efficiently.</i></p>
+
+        <h2>Python-generated Linked Dashboard Understanding</h2>
+        <p><b>Why is city_id useful as a shared key across the map, charts, and table?</b></p>
+        <p align="justify"><i>city_id serves as a unique identifier for each city, allowing data to be 
+          consistently referenced and linked across different visualizations and data structures.</i></p>
+
+        <p><b>Which function in the notebook is responsible for replacing the placeholder tokens in the HTML template?</b></p>
+        <p align="justify"><i>The function responsible for replacing the placeholder tokens in the HTML template is the <b>render_dashboard</b> function.</i></p>
+
+        <p><b>Why does this version embed window.CHART_DATA before the interaction code runs?</b></p>
+        <p align="justify"><i>So that the chart data is available when the interactive elements are initialized.</i></p>
+
+        <p><b>What parts of the final dashboard are primarily controlled by Python, which by HTML/CSS, and which by JavaScript?</b></p>
+        <p align="justify"><i>
+          Python: Data processing, analysis and visualization
+          <br>HTML/CSS: Structure and styling
+          <br>JavaScript: Interactive behavior
+        </i></p>
+
+        <p><b>In the interaction code, what happens when a user clicks a point or bar, and how is the selection cleared?</b></p>
+        <p align="justify"><i>When user clicks the bar it will highlight the selcted city
+          both in scater plot, table and map. The selection can be cleared by double-clicking
+        the bar or pressing the "ESE" key.
+        </i></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
